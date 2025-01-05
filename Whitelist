@@ -1,8 +1,13 @@
 -- Whitelist Table
 local whitelist = {
-    3077427744, -- Replace with actual UserIds
-    87654321,
-    11223344
+    [3077427744] = true, 
+    [1836738816] = true,
+    [2246825566] = true,
+    [7223036894] = true,
+    [2491782122] = true,
+    [6156419026] = true,
+    [5580002423] = true,
+    [2272173140] = true,
 }
 
 -- Function to check if a player is whitelisted
