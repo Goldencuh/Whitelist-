@@ -1,0 +1,21 @@
+-- Whitelist Table
+local whitelist = {
+    3077427744, -- Replace with actual UserIds
+    87654321,
+    11223344
+}
+
+-- Function to check if a player is whitelisted
+local function isWhitelisted(userId)
+    for _, id in ipairs(whitelist) do
+        if id == userId then
+            return true
+        end
+    end
+    return false
+end
+
+return {
+    whitelist = whitelist,
+    isWhitelisted = isWhitelisted
+}
