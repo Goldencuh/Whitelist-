@@ -12,12 +12,7 @@ local whitelist = {
 
 -- Function to check if a player is whitelisted
 local function isWhitelisted(userId)
-    for _, id in ipairs(whitelist) do
-        if id == userId then
-            return true
-        end
-    end
-    return false
+    return whitelist[userId] or false -- Return true if userId exists in the table
 end
 
 return {
