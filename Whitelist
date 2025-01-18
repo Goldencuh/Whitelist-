@@ -11,7 +11,7 @@ local whitelist = {
     [612606351] = true,
     [2456937096] = true,
     [1107524716] = true,
-    [7802133701] = true,
+    [5422957627] = true,
 }
 
 -- Function to check if a player is whitelisted
