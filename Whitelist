@@ -17,7 +17,7 @@ local whitelist = {
 
 -- Function to check if a player is whitelisted
 local function isWhitelisted(userId)
-    return whitelist[userId] or false -- Return true if userId exists in the table
+    return whitelist[userId] or false
 end
 
 return {
